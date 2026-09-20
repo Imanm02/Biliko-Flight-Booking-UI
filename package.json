@@ -1,24 +1,21 @@
 {
-  "name": "foundation-sites-template",
+  "name": "biliko",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "Right-to-left Persian flight booking interface built on Foundation Sites 6",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp sass"
   },
-  "author": "Foundation Yetinauts <contact@get.foundation> (https://get.foundation)",
+  "author": "Iman Mohammadi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foundation/foundation-sites/issues",
-    "email": "contact@get.foundation"
+    "url": "https://github.com/Imanm02/Biliko-Flight-Booking-UI/issues"
   },
   "dependencies": {
     "alertifyjs": "^1.13.1",
-    "bootstrap-icons": "^1.10.2",
     "foundation-sites": "latest",
     "jquery": ">=3.6.0",
-    "json-server": "^0.17.1",
     "moment": "^2.29.4",
     "motion-ui": "latest",
     "what-input": ">=5.2.10"
@@ -34,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foundation/foundation-sites-template.git"
+    "url": "https://github.com/Imanm02/Biliko-Flight-Booking-UI.git"
   },
   "private": true,
   "browserslist": [
