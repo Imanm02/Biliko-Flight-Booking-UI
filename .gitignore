@@ -1,6 +1,28 @@
-venv/
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS
 .DS_Store
-node_modules
-npm-debug.log
-css!/yarn.lock
-/yarn.lock
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python virtualenvs (left over from an earlier layout)
+venv/
+
+# Notes on what is deliberately NOT ignored:
+#
+#   css/app.css   Generated from scss/app.scss, but committed on purpose so the
+#                 site can be served without running the SCSS build. If you
+#                 later move the build into CI, ignore it here instead.
+#
+#   yarn.lock     Committed on purpose for reproducible installs. The previous
+#                 .gitignore listed it (plus a typo line, "css!/yarn.lock")
+#                 while the file was tracked anyway, which only caused
+#                 confusion. Pick one lockfile and keep it tracked.
